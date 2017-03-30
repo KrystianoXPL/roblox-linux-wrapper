@@ -77,7 +77,7 @@ roblox-install () {
 			# Make sure our directories really exist
 			mkdir -p "$HOME/.local/share/wineprefixes"
 			rwineboot
-			rwinetricks vcrun2013 ddr=opengl sound=alsa wininet rwinetricks winhttp d3dx9_43
+			rwinetricks vcrun2013 ddr=opengl sound=alsa wininet winhttp d3dx9_43
 				# ddr=opengl:	Fix black game window per https://github.com/roblox-linux-wrapper/roblox-linux-wrapper/issues/156
 				#		(this used to be set to ddr=gdi)
 				# sound=alsa:	Fix for crackling sound under Ubuntu 14.04
